@@ -19,7 +19,6 @@ public class ElementRun implements Runnable{
     private boolean stopRequested;
     public static double heatConstant;
     private List<ElementRun> neigbour;
-    private String elementName;
     double averageTemps = 130;
     double currentNewTemp;
     

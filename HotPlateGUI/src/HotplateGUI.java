@@ -9,17 +9,13 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.GridBagLayout;
-import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.Hashtable;
-import java.util.Iterator;
 
 import javax.swing.BorderFactory;
-import javax.swing.BoxLayout;
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -27,7 +23,6 @@ import javax.swing.JSlider;
 import javax.swing.SwingConstants;
 import javax.swing.Timer;
 import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 /**
  *
  * @author Ranul
@@ -57,6 +52,7 @@ public class HotplateGUI extends JPanel implements ActionListener, Runnable, Mou
     
 
 	
+    @SuppressWarnings("rawtypes")
     public HotplateGUI() { 
         
         super();
